@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Baking Time</string>
+    <string name="no_recipes">Could not retrieve recipes</string>
+    <string name="servings">For %1$s serving(s)</string>
+    <string name="dummy">Just dummy text</string>
+    <string name="ingredient_list">List of ingredients:</string>
+    <string name="next_step">Next</string>
+    <string name="previous_step">Back</string>
+    <string name="no_connection">No internet connection available</string>
+    <string name="no_recipe">No recipe selected</string>
+
+    <plurals name="servings">
+        <item quantity="one"> For %d serving</item>
+        <item quantity="other">For %d servings</item>
+    </plurals>
+    <string name="appwidget_text">EXAMPLE</string>
+    <string name="add_widget">Add widget</string>
+</resources>

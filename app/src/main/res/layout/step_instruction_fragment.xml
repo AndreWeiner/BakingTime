@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.google.android.exoplayer2.ui.PlayerView
+        android:id="@+id/player_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+    </com.google.android.exoplayer2.ui.PlayerView>
+
+    <TextView
+        android:id="@+id/step_full_description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/small_padding"
+        android:text="@string/dummy" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="@dimen/small_padding">
+
+        <Button
+            android:id="@+id/back_button"
+            android:layout_width="@dimen/zero_width"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"
+            android:layout_weight="@integer/button_weight"
+            android:text="@string/previous_step" />
+
+        <View
+            android:layout_width="@dimen/zero_width"
+            android:layout_height="wrap_content"
+            android:layout_weight="@integer/distance_weight" />
+
+        <Button
+            android:id="@+id/next_button"
+            android:layout_width="@dimen/zero_width"
+            android:layout_height="wrap_content"
+            android:layout_weight="@integer/button_weight"
+            android:text="@string/next_step" />
+    </LinearLayout>
+
+</LinearLayout>
